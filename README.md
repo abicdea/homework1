@@ -5,13 +5,10 @@ license: Apache License 2.0
 tasks:
 - sentiment-classification
 ---
-# <基于“通义千问1.8B基础模型”和“SWIFT微调框架”的情感分类模型>介绍
+# <情感分类模型>介绍
 
 本项目使用 SWIFT (Scalable lightWeight Infrastructure for Fine-Tuning) 微调框架，选择采用LoRA微调方法，对 通义千问1.8B 基础模型进行微调，以实现对句子的情感分类任务。
 
-项目来源： 2024年1月《阿里魔搭社区 AI大模型技术与应用实战训练营》(西安交通大学) 大作业一 
-
-戴锦程
 
 ## 实验环境
 
