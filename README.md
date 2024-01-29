@@ -2,7 +2,7 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import torch
 from swift.llm import (
-DatasetName, InferArguments, ModelType, SftArguments,
+alpaca-en, InferArguments, ModelType, SftArguments,
 infer_main, sft_main, app_ui_main, merge_lora_main
 )
 model_type = ModelType.qwen_1_8b
